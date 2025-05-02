@@ -2,8 +2,8 @@ package db
 
 import (
 	"database/sql"
-	"devtui/src/models"
 	"fmt"
+	"tasker/src/models"
 
 	_ "modernc.org/sqlite"
 )

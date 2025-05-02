@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"devtui/src/db"
-	"devtui/src/models"
+	"tasker/src/db"
+	"tasker/src/models"
 
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
@@ -329,7 +329,7 @@ func (m Model) View() string {
 	}
 	var s strings.Builder
 
-	s.WriteString(m.styles.TitleStyle.Render("DevTUI - Task Manager"))
+	s.WriteString(m.styles.TitleStyle.Render("tasker - Task Manager"))
 	s.WriteString("\n\n")
 
 	if len(m.taskList.Tasks) == 0 {

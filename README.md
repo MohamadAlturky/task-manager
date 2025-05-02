@@ -1,4 +1,4 @@
-# DevTUI - A Beautiful Task Management TUI
+# tasker - A Beautiful Task Management TUI
 
 A beautiful and efficient task management Terminal User Interface (TUI) application built with Go and Bubble Tea.
 
@@ -20,7 +20,7 @@ A beautiful and efficient task management Terminal User Interface (TUI) applicat
 ## Usage
 
 ```bash
-devtui
+tasker
 ```
 
 ### Keyboard Shortcuts
@@ -71,7 +71,7 @@ Each task is displayed with a status indicator:
 To build from source:
 
 ```bash
-go build -o devtui ./cmd/devtui
+go build -o tasker ./cmd/tasker
 ```
 
 ## Dependencies

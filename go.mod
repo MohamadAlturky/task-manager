@@ -1,4 +1,4 @@
-module devtui
+module tasker
 
 go 1.24.2
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"devtui/src/ui"
+	"tasker/src/ui"
 
 	tea "github.com/charmbracelet/bubbletea"
 )

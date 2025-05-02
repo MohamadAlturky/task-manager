@@ -41,7 +41,7 @@ func (m GuideModel) View() string {
 	var s strings.Builder
 
 	// Title
-	title := m.styles.TitleStyle.Render("Welcome to DevTUI")
+	title := m.styles.TitleStyle.Render("Welcome to tasker")
 	s.WriteString(title)
 	s.WriteString("\n\n")
 
